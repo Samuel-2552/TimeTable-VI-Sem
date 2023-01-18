@@ -6,9 +6,9 @@ $(document).ready(function() {
     function showCard() {
       $cards.eq(currentCard).fadeIn(1000);
       currentCard++;
-      if (currentCard >= $cards.length) {
+      /*if (currentCard >= $cards.length) {
         currentCard = 0;
-      }
+      }*/
     }
     
     setInterval(showCard, 1000);
@@ -30,5 +30,10 @@ $(document).ready(function() {
     else if(today==6){
       $cards.eq(4).addClass('highlight');
     }
+
+    $('.card').click(function() {
+      $('.card').hide(1500);
+      $('.new-card-container').show(3000);
+    })
 
   });
