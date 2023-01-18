@@ -36,4 +36,9 @@ $(document).ready(function() {
       $('.new-card-container').show(3000);
     })
 
+    $('.new-card').click(function() {
+      $('.new-card-container').hide(1500);
+      $('.card').show(3000);
+    })
+
   });
