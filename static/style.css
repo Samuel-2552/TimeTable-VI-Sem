@@ -5,6 +5,7 @@ body {
   .card-container{
     display: flex;
     flex-wrap: wrap;
+    padding: 20px;
   }
 
   .card {
@@ -19,6 +20,7 @@ body {
     background-color: #f0f0f0;
     display: none;
     flex: 1 0 300px;
+    margin: 20px;
     /*opacity: 0;
     animation: unfade 10s forwards;*/
   }
