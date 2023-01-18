@@ -1,4 +1,18 @@
 $(document).ready(function() {
+
+  var typed1 = new Typed('#typed-text-1', {
+    strings: ["Time Table VI Semester"],
+    typeSpeed: 30
+    //backSpeed: 20,
+    //loop: true
+  }, '#typed-text-2', {
+  strings: ["Notifications: Dear Students, Tomorrow all should assemble indoor auditorium at 10 am for PEGA orientation program, program continues till 12 pm."],
+  typeSpeed: 30
+  //backSpeed: 20,
+  //loop: true
+  });
+
+
     var $cards = $('.card');
     var currentCard = 0;
     var today = new Date().getDay();

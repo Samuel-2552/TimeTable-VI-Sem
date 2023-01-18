@@ -4,6 +4,7 @@ body {
 
   h1, h2, h3{
     font-variant:small-caps;
+    color:white;
   }
 
   .card-container, .new-card-container{
