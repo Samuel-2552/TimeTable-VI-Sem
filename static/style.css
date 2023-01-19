@@ -11,6 +11,18 @@ body {
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
+    position: relative;
+    animation-name: starting;
+    animation-duration: 4s;
+  }
+
+  @keyframes starting {
+    from{
+      top:1000px;
+    }
+    to{
+      top:0px;
+    }
   }
 
   .card {
@@ -20,7 +32,7 @@ body {
     background: linear-gradient(to right, #71c597, #0c4b75);
     border-radius: 10px;
     box-shadow: 2px 2px 10px #333;
-    transition: all 0.3s ease;
+    /* transition: all 0.3s ease; */
     text-align: center;
     background-color: #f0f0f0;
     display: none;
@@ -29,6 +41,7 @@ body {
     /*opacity: 0;
     animation: unfade 10s forwards;*/
   }
+
   .new-card {
     padding: 20px;
     width: 300px;
@@ -39,7 +52,6 @@ body {
     transition: all 0.3s ease;
     text-align: center;
     background-color: #f0f0f0;
-    
     flex: 1 0 300px;
     margin: 20px;
     /*display: none;

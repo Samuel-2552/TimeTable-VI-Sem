@@ -1,8 +1,39 @@
 $(document).ready(function() {
-
+  var json = {
+    "2":[
+        "period 1",
+        "period 2",
+        "period 3",
+        "period 4",
+        "period 5"
+    ],
+    "3":[
+        "period 1",
+        "period 2",
+        "period 3"
+    ],
+    "4":[
+        "period 1",
+        "period 2",
+        "period 3",
+        "period 4"
+    ],
+    "5":[
+        "period 1",
+        "period 2",
+        "period 3"
+    ],
+    "6":[
+        "period 1",
+        "period 2",
+        "period 3",
+        "period 4",
+        "period 5"
+    ]
+  }
   var typed = new Typed('#typed-text', {
     strings: ["Time Table VI Semester", "Notification: Dear Students, All should assemble at indoor auditorium for PEGA orientation program from 10 am to 12 pm."],
-    typeSpeed: 40,
+    typeSpeed: 100,
     backSpeed: 20,
     loop: true
   });
@@ -12,14 +43,19 @@ $(document).ready(function() {
     var today = new Date().getDay();
     
     function showCard() {
-      $cards.eq(currentCard).fadeIn(1000);
+      $cards.eq(currentCard).fadeIn(6000);
       currentCard++;
       /*if (currentCard >= $cards.length) {
         currentCard = 0;
       }*/
     }
     
-    setInterval(showCard, 1000);
+    setInterval(showCard, 1);
+    // showCard();
+    // showCard();
+    // showCard();
+    // showCard();
+    // showCard();
 
     console.log("value of day: "+today);
 
@@ -39,9 +75,17 @@ $(document).ready(function() {
       $cards.eq(4).addClass('highlight');
     }
 
+    function periodContainer(){
+      var card = document.createElement("div");
+      var card_content = document.createElement("div");
+      var para = document.createElement("p");
+
+    }
+
     $('.card').click(function() {
       $('.card').hide(1500);
       $('.new-card-container').show(3000);
+      setInterval(periodContainer, 10)
     })
 
     $('.new-card').click(function() {
