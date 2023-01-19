@@ -1,17 +1,11 @@
 $(document).ready(function() {
 
-  var typed1 = new Typed('#typed-text-1', {
-    strings: ["Time Table VI Semester"],
-    typeSpeed: 30
-    //backSpeed: 20,
-    //loop: true
-  }, '#typed-text-2', {
-  strings: ["Notifications: Dear Students, Tomorrow all should assemble indoor auditorium at 10 am for PEGA orientation program, program continues till 12 pm."],
-  typeSpeed: 30
-  //backSpeed: 20,
-  //loop: true
+  var typed = new Typed('#typed-text', {
+    strings: ["Time Table VI Semester", "Notification: Dear Students, All should assemble at indoor auditorium for PEGA orientation program from 10 am to 12 pm."],
+    typeSpeed: 40,
+    backSpeed: 20,
+    loop: true
   });
-
 
     var $cards = $('.card');
     var currentCard = 0;
