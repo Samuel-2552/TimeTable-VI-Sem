@@ -1,41 +1,10 @@
 $(document).ready(function() {
-  var json = {
-    "2":[
-        "period 1",
-        "period 2",
-        "period 3",
-        "period 4",
-        "period 5"
-    ],
-    "3":[
-        "period 1",
-        "period 2",
-        "period 3"
-    ],
-    "4":[
-        "period 1",
-        "period 2",
-        "period 3",
-        "period 4"
-    ],
-    "5":[
-        "period 1",
-        "period 2",
-        "period 3"
-    ],
-    "6":[
-        "period 1",
-        "period 2",
-        "period 3",
-        "period 4",
-        "period 5"
-    ]
-  }
+
   var typed = new Typed('#typed-text', {
-    strings: ["Time Table VI Semester", "Notification: Dear Students, All should assemble at indoor auditorium for PEGA orientation program from 10 am to 12 pm."],
-    typeSpeed: 100,
+    strings: ["Notification: Saturday is declared Holiday due to Alumini Reunion, therefore Monday will be working day following Saturday's Time Table."],
+    typeSpeed: 30,
     backSpeed: 20,
-    loop: true
+    // loop: true
   });
 
     var $cards = $('.card');
@@ -75,22 +44,90 @@ $(document).ready(function() {
       $cards.eq(4).addClass('highlight');
     }
 
-    function periodContainer(){
-      var card = document.createElement("div");
-      var card_content = document.createElement("div");
-      var para = document.createElement("p");
 
-    }
+    $('#2').click(function() {
+      $('.card-container').hide(1500);
+      $('.tue-card-container').show(3000);
+      const toast=document.createElement("div");
+      toast.classList.add("toast");
+      toast.innerHTML="Click any card to go back!";
+      document.body.appendChild(toast);
+      setTimeout(function(){
+        document.body.removeChild(toast);
+      },3000);
+      })
 
-    $('.card').click(function() {
-      $('.card').hide(1500);
-      $('.new-card-container').show(3000);
-      setInterval(periodContainer, 10)
+    $('.tue-card-container').click(function() {
+      $('.tue-card-container').hide(1500);
+      $('.card-container').show(3000);
     })
 
-    $('.new-card').click(function() {
-      $('.new-card-container').hide(1500);
-      $('.card').show(3000);
+    $('#3').click(function() {
+      $('.card-container').hide(1500);
+      $('.wed-card-container').show(3000);
+      const toast=document.createElement("div");
+      toast.classList.add("toast");
+      toast.innerHTML="Click any card to go back!";
+      document.body.appendChild(toast);
+      setTimeout(function(){
+        document.body.removeChild(toast);
+      },3000);
+      })
+
+    $('.wed-card-container').click(function() {
+      $('.wed-card-container').hide(1500);
+      $('.card-container').show(3000);
+    })
+
+    $('#4').click(function() {
+      $('.card-container').hide(1500);
+      $('.thur-card-container').show(3000);
+      const toast=document.createElement("div");
+      toast.classList.add("toast");
+      toast.innerHTML="Click any card to go back!";
+      document.body.appendChild(toast);
+      setTimeout(function(){
+        document.body.removeChild(toast);
+      },3000);
+      })
+
+    $('.thur-card-container').click(function() {
+      $('.thur-card-container').hide(1500);
+      $('.card-container').show(3000);
+    })
+
+    $('#5').click(function() {
+      $('.card-container').hide(1500);
+      $('.fri-card-container').show(3000);
+      const toast=document.createElement("div");
+      toast.classList.add("toast");
+      toast.innerHTML="Click any card to go back!";
+      document.body.appendChild(toast);
+      setTimeout(function(){
+        document.body.removeChild(toast);
+      },3000);
+      })
+
+    $('.fri-card-container').click(function() {
+      $('.fri-card-container').hide(1500);
+      $('.card-container').show(3000);
+    })
+
+    $('#6').click(function() {
+      $('.card-container').hide(1500);
+      $('.sat-card-container').show(3000);
+      const toast=document.createElement("div");
+      toast.classList.add("toast");
+      toast.innerHTML="Click any card to go back!";
+      document.body.appendChild(toast);
+      setTimeout(function(){
+        document.body.removeChild(toast);
+      },3000);
+      })
+
+    $('.sat-card-container').click(function() {
+      $('.sat-card-container').hide(1500);
+      $('.card-container').show(3000);
     })
 
   });
