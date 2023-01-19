@@ -13,7 +13,7 @@ body {
     padding: 20px;
     position: relative;
     animation-name: starting;
-    animation-duration: 4s;
+    animation-duration: 3.5s;
   }
 
   @keyframes starting {
