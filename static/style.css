@@ -91,8 +91,8 @@ body {
 
     position: fixed;
       bottom:10px;
-      left: 45%;
-      right: 45%;
+      left: 30%;
+      right: 30%;
       border-radius: 20px;
       background: linear-gradient(to bottom, #e4b007, #990585);
       color: #fff;  
