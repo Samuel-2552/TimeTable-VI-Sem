@@ -90,6 +90,7 @@ body {
   .toast {
 
     position: absolute;
+      margin-right:5px;
       bottom:20px;
       border-radius: 20px;
       background: linear-gradient(to bottom, #e4b007, #990585);
