@@ -18,6 +18,17 @@ $(document).ready(function() {
         currentCard = 0;
       }*/
     }
+
+    function toast_card() 
+    {
+      const toast=document.createElement("div");
+      toast.classList.add("toast");
+      toast.innerHTML="Click any card to go back!";
+      document.body.appendChild(toast);
+      setTimeout(function(){
+        document.body.removeChild(toast);
+      },5000);
+    }
     
     setInterval(showCard, 1);
     // showCard();
@@ -44,90 +55,58 @@ $(document).ready(function() {
       $cards.eq(4).addClass('highlight');
     }
 
+    $('.card').click(function() {
+      toast_card();
+    })
 
     $('#2').click(function() {
-      $('.card-container').hide(1500);
-      $('.tue-card-container').show(3000);
-      const toast=document.createElement("div");
-      toast.classList.add("toast");
-      toast.innerHTML="Click any card to go back!";
-      document.body.appendChild(toast);
-      setTimeout(function(){
-        document.body.removeChild(toast);
-      },5000);
-      })
+      $('.card-container').hide(700);
+      $('.tue-card-container').show(700);
+    });
 
     $('.tue-card-container').click(function() {
-      $('.tue-card-container').hide(1500);
-      $('.card-container').show(3000);
+      $('.tue-card-container').hide(700);
+      $('.card-container').show(700);
     })
 
     $('#3').click(function() {
-      $('.card-container').hide(1500);
-      $('.wed-card-container').show(3000);
-      const toast=document.createElement("div");
-      toast.classList.add("toast");
-      toast.innerHTML="Click any card to go back!";
-      document.body.appendChild(toast);
-      setTimeout(function(){
-        document.body.removeChild(toast);
-      },5000);
-      })
+      $('.card-container').hide(700);
+      $('.wed-card-container').show(700);
+    });
 
     $('.wed-card-container').click(function() {
-      $('.wed-card-container').hide(1500);
-      $('.card-container').show(3000);
+      $('.wed-card-container').hide(700);
+      $('.card-container').show(700);
     })
 
     $('#4').click(function() {
-      $('.card-container').hide(1500);
-      $('.thur-card-container').show(3000);
-      const toast=document.createElement("div");
-      toast.classList.add("toast");
-      toast.innerHTML="Click any card to go back!";
-      document.body.appendChild(toast);
-      setTimeout(function(){
-        document.body.removeChild(toast);
-      },5000);
-      })
+      $('.card-container').hide(700);
+      $('.thur-card-container').show(700);
+    });
 
     $('.thur-card-container').click(function() {
-      $('.thur-card-container').hide(1500);
-      $('.card-container').show(3000);
+      $('.thur-card-container').hide(700);
+      $('.card-container').show(700);
     })
 
     $('#5').click(function() {
-      $('.card-container').hide(1500);
-      $('.fri-card-container').show(3000);
-      const toast=document.createElement("div");
-      toast.classList.add("toast");
-      toast.innerHTML="Click any card to go back!";
-      document.body.appendChild(toast);
-      setTimeout(function(){
-        document.body.removeChild(toast);
-      },5000);
-      })
+      $('.card-container').hide(700);
+      $('.fri-card-container').show(700);
+    });
 
     $('.fri-card-container').click(function() {
-      $('.fri-card-container').hide(1500);
-      $('.card-container').show(3000);
+      $('.fri-card-container').hide(700);
+      $('.card-container').show(700);
     })
 
     $('#6').click(function() {
-      $('.card-container').hide(1500);
-      $('.sat-card-container').show(3000);
-      const toast=document.createElement("div");
-      toast.classList.add("toast");
-      toast.innerHTML="Click any card to go back!";
-      document.body.appendChild(toast);
-      setTimeout(function(){
-        document.body.removeChild(toast);
-      },5000);
-      })
+      $('.card-container').hide(700);
+      $('.sat-card-container').show(700);
+    });
 
     $('.sat-card-container').click(function() {
-      $('.sat-card-container').hide(1500);
-      $('.card-container').show(3000);
+      $('.sat-card-container').hide(700);
+      $('.card-container').show(700);
     })
 
   });
