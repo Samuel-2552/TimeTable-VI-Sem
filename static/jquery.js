@@ -54,7 +54,7 @@ $(document).ready(function() {
       document.body.appendChild(toast);
       setTimeout(function(){
         document.body.removeChild(toast);
-      },3000);
+      },5000);
       })
 
     $('.tue-card-container').click(function() {
@@ -71,7 +71,7 @@ $(document).ready(function() {
       document.body.appendChild(toast);
       setTimeout(function(){
         document.body.removeChild(toast);
-      },3000);
+      },5000);
       })
 
     $('.wed-card-container').click(function() {
@@ -88,7 +88,7 @@ $(document).ready(function() {
       document.body.appendChild(toast);
       setTimeout(function(){
         document.body.removeChild(toast);
-      },3000);
+      },5000);
       })
 
     $('.thur-card-container').click(function() {
@@ -105,7 +105,7 @@ $(document).ready(function() {
       document.body.appendChild(toast);
       setTimeout(function(){
         document.body.removeChild(toast);
-      },3000);
+      },5000);
       })
 
     $('.fri-card-container').click(function() {
@@ -122,7 +122,7 @@ $(document).ready(function() {
       document.body.appendChild(toast);
       setTimeout(function(){
         document.body.removeChild(toast);
-      },3000);
+      },5000);
       })
 
     $('.sat-card-container').click(function() {
