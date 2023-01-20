@@ -2,6 +2,13 @@ body {
     background: linear-gradient(to bottom, #030200, #25001d);
   }
 
+  .header{
+    width: 100%;
+    position: relative;
+    background-color: #030200;
+    top:0px;
+  }
+
   h1, h2, h3{
     font-variant:small-caps;
     color:white;
@@ -80,12 +87,14 @@ body {
   }
 
   .new-card-content {
-    padding: 20px;
     color: white;
-    display: flex;
     align-items: center;
     justify-content: center;
     font-size:22px;
+  }
+
+  b{
+    text-shadow: 1.5px 1.5px black;
   }
 
   /*.terminal {
