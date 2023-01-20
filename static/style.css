@@ -89,16 +89,17 @@ body {
 
   .toast {
 
-    position: fixed;
-      bottom:10px;
-      left: 30%;
-      right: 30%;
+    position: absolute;
+      bottom:20px;
+      left: 45%;
+      right: 45%;
       border-radius: 20px;
       background: linear-gradient(to bottom, #e4b007, #990585);
       color: #fff;  
       text-align: center;
-      font-size:20px;
+      font-size:50px;
       width:300px;
+      height:auto;
   }
 
   /*.terminal {
