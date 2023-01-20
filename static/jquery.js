@@ -116,15 +116,15 @@ $(document).ready(function() {
     $('.card').click(function() {
       period(this.id, 0);
       $('.card').hide(1500);
-      $('.new-card-container').show(3000);
+      $('.new-card-container').show(800);
     })
 
     $('.new-card-container').click(function() {
       $('.new-card-container').hide(1500);
-      $('.card').show(3000,function(){
+      $('.card').show(800,function(){
         const myNode = document.getElementById("container");
-      while (myNode.firstChild) {
-        myNode.removeChild(myNode.lastChild);
+        while (myNode.firstChild) {
+          myNode.removeChild(myNode.lastChild);
       }
       });
     })
