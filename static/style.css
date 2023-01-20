@@ -91,15 +91,15 @@ body {
 
     position: absolute;
       bottom:20px;
-      left: 10px;
-      right: 10px;
+      left: 100%;
+      right: 100%;
       border-radius: 20px;
       background: linear-gradient(to bottom, #e4b007, #990585);
       color: #fff;  
       text-align: center;
-      font-size:50px;
+      font-size:30px;
       width:90%;
-      height:auto;
+      height:35px;
   }
 
   /*.terminal {
