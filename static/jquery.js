@@ -50,6 +50,7 @@ $(document).ready(function() {
         "<p style='color:yellow'>02.10 - 03.00</p><p>BA19602</p><p> <b>Fundamentals of Accounting</b></p><p>Ms. K. P. Sajana</p>"
     ]
   }]
+  // var subject = ["<button>back</button>", "<a><button>Computer Vision and its Application</button></a>", "<a><button>Data Analysis and Data Mining</button></a>", "<a><button>Foundations of Natural Language Processing</button></a>", "<a><button>Fundamentals of Accounting</button></a>", "<a><button>IOT Architecture and its Protocols</button></a>", "<a><button>Mini-Project</button></a>", "<a><button>Problem Solving Techniques</button></a>", "<a><button>Time Series Analysis and Forecasting</a></button>"]
   var typed = new Typed('#typed-text', {
     strings: ["Notification: Saturday is declared Holiday due to Alumini Reunion, therefore Monday will be working day following Saturday's Time Table."],
     typeSpeed: 30,
@@ -68,13 +69,7 @@ $(document).ready(function() {
         currentCard = 0;
       }*/
     }
-    
     setInterval(showCard, 1);
-    // showCard();
-    // showCard();
-    // showCard();
-    // showCard();
-    // showCard();
 
     console.log("value of day: "+today);
 
@@ -94,18 +89,17 @@ $(document).ready(function() {
       $cards.eq(4).addClass('highlight');
     }
 
+    if($('#syllabus-options').is(":visible")){
+      $("#syllabus-options").hide();
+    }
+
     function period(id, i){
       var c = document.getElementById("container");
       var card = document.createElement("div");
       card.className = "new-card"
       var card_content = document.createElement("div");
       card_content.className = "new-card-content"
-      // card_content.addClass("new-card-content");
-      // var p = document.createElement("p");
       card_content.innerHTML = json[0][id][i];
-      // console.log(json[0][id][i])
-      // p.appendChild(text);
-      // card_content.appendChild(p);
       card.appendChild(card_content);
       c.appendChild(card);
       i = i + 1;
@@ -127,6 +121,19 @@ $(document).ready(function() {
           myNode.removeChild(myNode.lastChild);
       }
       });
+    })
+  
+    $("#syllabus").click(function(){
+      // $("#books").hide(1000);
+      // $("#syllabus").hide(1000);
+      $("#options").hide(1000);
+      $("#syllabus-options").show(2000);
+    })
+    $("#back").click(function(){
+      // $("#books").hide(1000);
+      // $("#syllabus").hide(1000);
+      $("#options").show(1000);
+      $("#syllabus-options").hide(2000);
     })
 
   });
