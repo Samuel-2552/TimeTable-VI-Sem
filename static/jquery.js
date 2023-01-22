@@ -19,6 +19,13 @@ $(document).ready(function() {
       }*/
     }
 
+    setInterval(showCard, 1);
+    // showCard();
+    // showCard();
+    // showCard();
+    // showCard();
+    // showCard();
+
     function toast_card() 
     {
       const toast=document.createElement("div");
@@ -30,12 +37,10 @@ $(document).ready(function() {
       },5000);
     }
     
-    setInterval(showCard, 1);
-    // showCard();
-    // showCard();
-    // showCard();
-    // showCard();
-    // showCard();
+    $('.card').click(function() {
+      toast_card();
+    })
+
 
     console.log("value of day: "+today);
 
@@ -54,10 +59,6 @@ $(document).ready(function() {
     else if(today==6){
       $cards.eq(4).addClass('highlight');
     }
-
-    $('.card').click(function() {
-      toast_card();
-    })
 
     $('#2').click(function() {
       $('.card-container').hide(700);
