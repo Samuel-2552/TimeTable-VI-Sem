@@ -133,18 +133,6 @@ body {
       height:auto;
   }
 
-  .soon {
-    border-radius: 20px;
-      background: linear-gradient(to bottom, #e4b007, #990585);
-      color: #fff;  
-      text-align: center;
-      font-size:50px;
-      padding: 20px;
-    width: 300px;
-    height: 200px;
-    display: flex;
-    align-items: center;
-  }
 
   /*.terminal {
     font-family: monospace;

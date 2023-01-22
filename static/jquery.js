@@ -152,14 +152,13 @@ $(document).ready(function() {
       $("#syllabus-options").hide(2000);
     })
     $("#hide").click(function(){
-      $('.card').hide(1500);
-      $('.new-card-container').hide(1500);
-      $('.soon').show(1500);
-      toast_card();
+      const toast=document.createElement("div");
+      toast.classList.add("toast");
+      toast.innerHTML="Coming Soon!";
+      document.body.appendChild(toast);
+      setTimeout(function(){
+        document.body.removeChild(toast);
+      },5000);
     })
-
-    $('#soon').click(function(){
-      $('#soon').hide(1500);
-      })
 
   });
