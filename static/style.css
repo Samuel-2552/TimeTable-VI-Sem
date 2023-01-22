@@ -119,6 +119,20 @@ body {
     text-shadow: 1.5px 1.5px black;
   }
 
+  .toast {
+
+    position: absolute;
+      margin-right:-15px;
+      bottom:20px;
+      border-radius: 20px;
+      background: linear-gradient(to bottom, #e4b007, #990585);
+      color: #fff;  
+      text-align: center;
+      font-size:50px;
+      width:100%;
+      height:auto;
+  }
+
   /*.terminal {
     font-family: monospace;
     white-space: pre;
