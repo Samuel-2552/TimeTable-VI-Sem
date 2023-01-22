@@ -58,6 +58,7 @@ $(document).ready(function() {
     // loop: true
   }); 
 
+
     var $cards = $('.card');
     var currentCard = 0;
     var today = new Date().getDay();
@@ -150,5 +151,15 @@ $(document).ready(function() {
       $("#options").show(1000);
       $("#syllabus-options").hide(2000);
     })
+    $("#hide").click(function(){
+      $('.card').hide(1500);
+      $('.new-card-container').hide(1500);
+      $('.soon').show(1500);
+      toast_card();
+    })
+
+    $('#soon').click(function(){
+      $('.soon').hide(1500);
+      })
 
   });
