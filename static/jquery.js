@@ -159,7 +159,7 @@ $(document).ready(function() {
     })
 
     $('#soon').click(function(){
-      $('.soon').hide(1500);
+      $('#soon').hide(1500);
       })
 
   });
