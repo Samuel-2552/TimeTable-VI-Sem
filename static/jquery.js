@@ -71,6 +71,21 @@ $(document).ready(function() {
     }
     setInterval(showCard, 1);
 
+    function toast_card() 
+    {
+      const toast=document.createElement("div");
+      toast.classList.add("toast");
+      toast.innerHTML="Click any card to go back!";
+      document.body.appendChild(toast);
+      setTimeout(function(){
+        document.body.removeChild(toast);
+      },5000);
+    }
+    
+    $('.card').click(function() {
+      toast_card();
+    })
+
     console.log("value of day: "+today);
 
     if(today==2){
