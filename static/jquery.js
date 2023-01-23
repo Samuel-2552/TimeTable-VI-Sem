@@ -52,7 +52,7 @@ $(document).ready(function() {
   }]
   // var subject = ["<button>back</button>", "<a><button>Computer Vision and its Application</button></a>", "<a><button>Data Analysis and Data Mining</button></a>", "<a><button>Foundations of Natural Language Processing</button></a>", "<a><button>Fundamentals of Accounting</button></a>", "<a><button>IOT Architecture and its Protocols</button></a>", "<a><button>Mini-Project</button></a>", "<a><button>Problem Solving Techniques</button></a>", "<a><button>Time Series Analysis and Forecasting</a></button>"]
   var typed = new Typed('#typed-text', {
-    strings: ["Notification: NPTEL registration closes by 31st Jan so register the courses before and update in the same in spreadsheet."],
+    strings: ["Notification: NPTEL registration closes by 31st Jan so register the courses before and update the same in spreadsheet."],
     typeSpeed: 30,
     backSpeed: 20,
     // loop: true
