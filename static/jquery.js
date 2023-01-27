@@ -69,7 +69,7 @@ $(document).ready(function() {
   }
 
   $("#assignment").on("click", function(){
-    window.location.href = "https://samuel-2552.github.io/assignment.html";
+    window.location.href = "https://samuel-2552.github.io/TimeTable-VI-Sem/assignment.html";
   })
 
     var $cards = $('.card');
