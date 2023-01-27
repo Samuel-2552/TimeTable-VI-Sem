@@ -38,6 +38,14 @@ body {
     animation-duration: 2.5s;
   }
 
+  .assignment-container{
+    display: flex;
+    padding: 20px;
+    position: relative;
+    animation-name: starting;
+    animation-duration: 2.5s;
+  }
+
   @keyframes starting {
     from{
       top:1000px;
@@ -146,6 +154,17 @@ body {
   @keyframes blinker {
     from {background:linear-gradient(to right, #ff0000, #000000);}
     to {background:linear-gradient(to right, #000000, #1100ff);}
+  }
+
+  .sub-title{
+    max-width: 300px;
+    margin: auto;
+    background:linear-gradient(to right, #382a75, #ff00f2, black);
+    border-radius: 10px;
+  }
+
+  .sub-title > h2{
+    padding: 20px;
   }
 
 

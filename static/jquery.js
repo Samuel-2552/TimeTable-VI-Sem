@@ -58,15 +58,6 @@ $(document).ready(function() {
     // loop: true
   }); 
 
-  var assignment = ["Yes"];
-
-  if(assignment[0] === "Yes"){
-    const assignment_button=document.createElement("button");
-      assignment_button.classList.add("blink");
-      assignment_button.id = "assignment"
-      assignment_button.innerHTML="Assignment";
-      document.getElementById("syllabus").insertAdjacentElement("afterend",assignment_button);
-  }
 
   $("#assignment").on("click", function(){
     window.location.href = "https://samuel-2552.github.io/TimeTable-VI-Sem/assignment.html";

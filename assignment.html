@@ -1,0 +1,110 @@
+<html>
+<head>
+  <link rel="icon" href="static/Time Table.png" type="image/icon type">
+  <link rel="stylesheet" href="static/style.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  <script src="static/assignment_jquery.js"></script>
+
+  <title>Time Table VI Sem</title>
+  <script>
+    var assignments = [
+      {
+        '2':["<p><h3>1. To find a dataset ffor a particular year gross  domestic product for different countries and to find cross sectional, Time Series and panel data</h3></p><p><h3>2. To find the internal structures of SAT solvers</h3></p>"],
+        '3':["<p>No Work</p>"],
+        '4':["<p>No Work</p>"],
+        '5':["<p>No Work</p>"],
+        '6':["<p>No Work</p>"],
+        '7':["<p>No Work</p>"]
+      }
+    ]
+    function assignment(id, i){
+      $(".card").hide(1500);
+      var c = document.getElementById("assignment-container");
+      var card = document.createElement("div");
+      card.className = "new-card"
+      var card_content = document.createElement("div");
+      card_content.className = "assignment-card-content"
+      card_content.innerHTML = assignments[0][id][i];
+      card.appendChild(card_content);
+      c.appendChild(card);
+      i = i + 1;
+      if(i < assignments[0][id].length){
+        setInterval(period(id, i),10);
+      }
+    }
+
+    // function close(){
+    //   $('.assignment-container').hide(1500);
+    //   // $('.card').show(800,function(){
+    //   //   const myNode = document.getElementById("assignment-container");
+    //   //   while (myNode.firstChild) {
+    //   //     myNode.removeChild(myNode.lastChild);
+    //   // }
+    //   // });
+    // }
+  </script>
+</head>
+<body>
+  
+  <div class="area" >
+    <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+    </ul>
+  </div>
+  <div style="background-color:rgb(0, 0, 0)">
+    <center>
+        <h1 style="font-size: 45px; color:rgb(255, 255, 255);">Time Table VI Semester</h1>
+        <br>
+        <div class="sub-title">
+            <h1>Assignment</h1>
+        </div>
+    </center>
+  </div>
+  <div class="card-container" id="card-container">
+    <div class="card" id="2" onclick="assignment('2',0)">
+      <div class="new-card-content">
+          <p>Computer Vision and its Applications</p>
+      </div>
+    </div>
+    <div class="card" id="3" onclick="assignment('3',0)">
+      <div class="new-card-content">
+        <p>Data Analysis & Data Mining</p>
+      </div>
+    </div>
+    <div class="card" id="4" onclick="assignment('4',0)">
+      <div class="new-card-content">
+        <p>Fundatmentals of Accounting</p>
+      </div>
+    </div>
+    <div class="card" id="5" onclick="assignment('5',0)">
+      <div class="new-card-content">
+        <p>Foundations of Natural Language Processing</p>
+      </div>
+    </div>
+    <div class="card" id="6"onclick="assignment('6',0)">
+      <div class="new-card-content">
+        <p>IOT Architecture and its Protocols</p>
+      </div>
+    </div>
+    <div class="card" id="7" onclick="assignment('7',0)">
+        <div class="new-card-content">
+          <p>Time Series Analysis and Forecasting</p>
+        </div>
+      </div>
+  </div>
+
+  <div class="assignment-container" id="assignment-container" onclick=close()>
+
+  </div>
+</body>
+</html>
