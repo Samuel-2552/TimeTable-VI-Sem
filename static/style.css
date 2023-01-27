@@ -133,6 +133,21 @@ body {
       height:auto;
   }
 
+  
+  .blink{
+    text-decoration: blink;
+    animation-name: blinker;
+    animation-duration: 0.3s;
+    animation-iteration-count:infinite;
+    animation-timing-function:ease-in-out;
+    animation-direction: alternate;
+  }
+
+  @keyframes blinker {
+    from {background:linear-gradient(to right, #ff0000, #000000);}
+    to {background:linear-gradient(to right, #000000, #1100ff);}
+  }
+
 
   /*.terminal {
     font-family: monospace;
