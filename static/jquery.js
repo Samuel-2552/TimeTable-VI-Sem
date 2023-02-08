@@ -8,24 +8,24 @@ $(document).ready(function() {
         "<p style='color:yellow'>11.00 - 11.50</p><p>AI19642</p> <p><b>Time Series Analysis and Forecasting</b></p><p>Mrs. I. Eugene Berna</p>",
         "<p style='color:yellow'>11.50 - 12.40</p><p><p><b>Library</b></p>",
         "<p style='color:yellow'>12.40 - 01.20</p><p><p><b>Lunch</b></p>",
-        "<p style='color:yellow'>01.20 - 03.00</p><p>AI19644/AI19642</p><p><b>(IoT Lab)</b>/<b>(TSAF Lab)</b></p><p>Mrs. S. Mahalakshmi / Mrs. I. Eugene Berna</p>"
+        "<p style='color:yellow'>01.20 - 03.00</p><p>AI19644/AI19642</p><p><b>(IoT Lab)-A1</b>/<b>(TSAF Lab)-A2</b></p><p>Mrs. S. Mahalakshmi / Mrs. I. Eugene Berna</p>"
     ],
     "3":[
         "<p style='color:yellow'>08.00 - 09.00</p><p>AI19642</p><p> <b>Time Series Analysis and Forecasting</b></p><p>Mrs. I. Eugene Berna</p>",
         "<p style='color:yellow'>09.00 - 09.50</p><p>BA19602</p><p> <b>Fundamentals of Accounting</b></p><p>Ms. K. P. Sajana</p>",
         "<p style='color:yellow'>09.50 - 10.10</p><p><b>Break</b></p>",
-        "<p style='color:yellow'>10.10 - 11.50</p><p>AI19641/AI19611</p><p><b>(CV Lab)</b>/<b>(Mini Project)</b></p><p>Mr. K. Gopinath / Dr. S. Subbiah</p>",
+        "<p style='color:yellow'>10.10 - 11.50</p><p>AI19641/AI19611</p><p><b>(CV Lab)-A1</b>/<b>(Mini Project)-A2</b></p><p>Mr. K. Gopinath / Dr. S. Subbiah</p>",
         "<p style='color:yellow'>11.50 - 12.40</p><p>AI19P62</p><p> <b>Data Analysis & Data Mining</b></p><p>Mrs. M. Sindhuja</p>",
         "<p style='color:yellow'>12:40 - 01.20</p><p><b>Lunch</b></p>",
         "<p style='color:yellow'>01.20 - 02.10</p><p>AI19641</p><p> <b>Computer Vision and its Applications</b></p>",
         "<p style='color:yellow'>02.10 - 03.00</p><p>AI19643</p><p> <b>Foundations of Natural Language Processing</b></p><p>Mrs. K. Sangeetha</p>"
     ],
     "4":[
-        "<p style='color:yellow'>08.00 - 09.50</p><p>AI19643/AI19P62</p><p><b>(NLP Lab)</b>/<b>(DADM Lab)</b></p><p>Mrs. K. Sangeetha / Mrs. M. Sindhuja</p>",
+        "<p style='color:yellow'>08.00 - 09.50</p><p>AI19643/AI19P62</p><p><b>(NLP Lab)-A1</b>/<b>(DADM Lab)-A2</b></p><p>Mrs. K. Sangeetha / Mrs. M. Sindhuja</p>",
         "<p style='color:yellow'>09.50 - 10.10</p><p><b>Break</b></p>",
         "<p style='color:yellow'>10.10 - 11.00</p><p>AI19643</p><p> <b>Foundations of Natural Language Processing</b></p><p>Mrs. K. Sangeetha</p>",
         "<p style='color:yellow'>11.00 - 11.40</p><p><b>Lunch</b></p>",
-        "<p style='color:yellow'>11.40 - 01.20</p><p>AI19641/AI19611</p><p><b>(CV Lab)</b>/<b>(Mini Project)</b></p><p>Mr. K. Gopinath / Dr. S. Subbiah</p>",
+        "<p style='color:yellow'>11.40 - 01.20</p><p>AI19641/AI19611</p><p><b>(CV Lab)-A1</b>/<b>(Mini Project)-A2</b></p><p>Mr. K. Gopinath / Dr. S. Subbiah</p>",
         "<p style='color:yellow'>01.20 - 02.10</p><p>AI19644</p><p> <b>IOT Architecture and its Protocols</b></p><p>Mrs. S. Mahalakshmi</p>",
         "<p style='color:yellow'>02.10 - 03.00</p><p>AI19P62</p><p> <b>Data Analysis & Data Mining</b></p><p>Mrs. M. Sindhuja</p>"
     ],
@@ -33,7 +33,7 @@ $(document).ready(function() {
         "<p style='color:yellow'>08.00 - 09.00</p><p>AI19641</p><p> <b>Computer Vision and its Applications</b></p><p>Mr. K. Gopinath</p>",
         "<p style='color:yellow'>09.00 - 09.50</p><p>AI19644</p><p> <b>IOT Architecture and its Protocols</b></p><p>Mrs. S. Mahalakshmi</p>",
         "<p style='color:yellow'>09.50 - 10.10</p><p><b>Break</b></p>",
-        "<p style='color:yellow'>10.10 - 11.50</p><p>AI19644/AI19642</p><p><b>(IoT Lab)</b>/<b>(TSAF Lab)</b></p><p>Mrs. S. Mahalakshmi / Mrs. I. Eugene Berna</b></p>",
+        "<p style='color:yellow'>10.10 - 11.50</p><p>AI19644/AI19642</p><p><b>(IoT Lab)-A2</b>/<b>(TSAF Lab)-A1</b></p><p>Mrs. S. Mahalakshmi / Mrs. I. Eugene Berna</b></p>",
         "<p style='color:yellow'>11.50 - 12.30</p><p><b>Lunch</b></p>",
         "<p style='color:yellow'>12.30 - 01.20</p><p>BA19602</p><p> <b>Fundamentals of Accounting</b></p><p>Ms. K. P. Sajana</p>",
         "<p style='color:yellow'>01.20 - 02.10</p><p>AI19P62</p><p> <b>Data Analysis & Data Mining</b></p><p>Mrs. M. Sindhuja</p>",
@@ -43,7 +43,7 @@ $(document).ready(function() {
         "<p style='color:yellow'>08.00 - 09.00</p><p>AI19643</p><p> <b>Foundations of Natural Language Processing</b></p><p>Mrs. K. Sangeetha</p>",
         "<p style='color:yellow'>09.00 - 09.50</p><p>AI19642</p><p> <b>Time Series Analysis and Forecasting</b></p><p>Mrs. I. Eugene Berna</p>",
         "<p style='color:yellow'>09.50 - 10.10</p><p><b>Break</b></p>",
-        "<p style='color:yellow'>10.10 - 11.50</p><p>AI19643/AI19P62</p><p><b>(NLP Lab)</b>/<b>(DADM Lab)</b></p><p>Mrs. K. Sangeetha / Mrs. M. Sindhuja</p>",
+        "<p style='color:yellow'>10.10 - 11.50</p><p>AI19643/AI19P62</p><p><b>(NLP Lab)-A2</b>/<b>(DADM Lab)-A1</b></p><p>Mrs. K. Sangeetha / Mrs. M. Sindhuja</p>",
         "<p style='color:yellow'>11.50 - 12.30</p><p><b>Lunch</b></p>",
         "<p style='color:yellow'>12.30 - 01.20</p><p>AI19641</p><p> <b>Computer Vision and its Applications</b></p><p>Mr. K. Gopinath</p>",
         "<p style='color:yellow'>01.20 - 02.10</p><p><b>Counseling</b></p>",
