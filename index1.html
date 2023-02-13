@@ -1,0 +1,87 @@
+<html>
+<head>
+  <link rel="icon" href="static/Time Table.png" type="image/icon type">
+  <link rel="stylesheet" href="static/style.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  <script src="static/jquery.js"></script>
+
+  <title>Time Table VI Sem</title>
+
+</head>
+<body>
+  
+  <div class="area" >
+    <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+    </ul>
+  <div style="background-color:rgb(0, 0, 0)">
+    <center><h1 style="font-size: 45px; color:rgb(255, 255, 255);">Time Table VI Semester</h1>
+  </div>
+
+  <div style="background-color: rgb(0, 0, 0); padding:12.5px;display: flex; gap:50px" id="options">
+      <!-- <a href="https://201501043.github.io/textbook" id="books"><button><h2 style="padding: 5px;">Books</h3></button></a> -->
+        <button id="hide"><h3 style="padding: 5px;">Books</h3></button>
+      <button id="syllabus"><h3 style="padding: 5px;">Syllabus</h3></button>
+      <a href="https://samuel-2552.github.io/TimeTable-VI-Sem/assignment.html"><button id="assigment"><h3 style="padding: 5px;">Assigment</h3></button></a>
+      <!-- <button id="Assignment"><h3 style="padding:5px;">Assignment</h3></button> -->
+  </div>
+
+  <div style="background-color: rgb(0, 0, 0); padding:12.5px;display: flex; gap:50px" id="syllabus-options">
+    <button id="back" style="background: linear-gradient(to right, red, black);"><h2 style="padding: 5px;">Back</h3></button>
+    <a href="static/syllabus/Computer Vision.pdf"><button><h3 style="padding: 5px;">Computer Vision</h3></button></a>
+      <a href="static/syllabus/Data Analysis and Data Mining.pdf" ><button><h3 style="padding: 5px;">DADM</h3></button></a>
+        <a href="static/syllabus/Foundations of NLP.pdf" ><button><h3 style="padding: 5px;">NLP</h3></button></a>
+        <a href="static/syllabus/Fundamentals of Accounting.pdf" ><button><h3 style="padding: 5px;">Accounting</h3></button></a>
+        <a href="static/syllabus/IOT.pdf" ><button><h3 style="padding: 5px;">IOT</h3></button></a>
+        <a href="static/syllabus/Mini-Project.pdf" ><button><h3 style="padding: 5px;">Mini-Project</h3></button></a>
+        <a href="static/syllabus/Problem Solving Techniques.pdf" ><button><h3 style="padding: 5px;">Problem Sovling</h3></button></a>
+        <a href="static/syllabus/Time Series Analysis.pdf" ><button><h3 style="padding: 5px;">Time Series</h3></button></a>
+
+  </div>
+  
+  <center><h1><span id="typed-text"></span></h1>
+  <h2><span id="typed-text-2"></span></h2></center>
+  
+  <div class="card-container">
+    <div class="card"  id="2">
+      <div class="card-content">
+          <p>Tuesday</p>
+      </div>
+    </div>
+    <div class="card" id="3">
+      <div class="card-content">
+        <p>Wednesday</p>
+      </div>
+    </div>
+    <div class="card" id="4">
+      <div class="card-content">
+        <p>Thursday</p>
+      </div>
+    </div>
+    <div class="card" id="5">
+      <div class="card-content">
+        <p>Friday</p>
+      </div>
+    </div>
+    <div class="card" id="6">
+      <div class="card-content">
+        <p>Saturday</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="new-card-container" style="display: none;" id="container">    
+  </div>
+  </div>
+</body>
+</html>̥
